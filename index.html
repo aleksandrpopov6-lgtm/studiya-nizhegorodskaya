@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ТЗ · Ремонт квартиры-студии «под ключ» — тёплый пастельный интерьер</title>
+<meta name="description" content="Техническое задание на дизайн-проект и ремонт квартиры-студии 34,4 м² в Москве. Тёплый пастельный интерьер, бюджет 3 млн ₽, смета, материалы, техника, мебель." />
+<link href="https://api.fontshare.com/v2/css?f[]=boska@400,500,600,700&f[]=general-sans@300,400,500,600&display=swap" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="header">
+  <nav class="nav" aria-label="Основная навигация">
+    <div class="brand">
+      <svg class="brand__logo" width="34" height="34" viewBox="0 0 34 34" fill="none" aria-label="Логотип проекта">
+        <rect x="1.5" y="1.5" width="31" height="31" rx="8" stroke="currentColor" stroke-width="2"/>
+        <path d="M8 24 L8 13 L17 7 L26 13 L26 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="17" cy="18" r="3.2" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <span class="brand__text">
+        <span class="brand__title">Студия · Нижегородская</span>
+        <span class="brand__sub">Дизайн-проект «под ключ» · 2026</span>
+      </span>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Разделы задания">
+      <button class="tab is-active" role="tab" data-tab="overview">Обзор</button>
+      <button class="tab" role="tab" data-tab="owner">Заказчица</button>
+      <button class="tab" role="tab" data-tab="object">Объект</button>
+      <button class="tab" role="tab" data-tab="concept">Концепция</button>
+      <button class="tab" role="tab" data-tab="plan">Планировка</button>
+      <button class="tab" role="tab" data-tab="materials">Материалы</button>
+      <button class="tab" role="tab" data-tab="kitchen">Кухня</button>
+      <button class="tab" role="tab" data-tab="furniture">Мебель</button>
+      <button class="tab" role="tab" data-tab="estimate">Смета</button>
+      <button class="tab" role="tab" data-tab="works">Работы</button>
+      <button class="tab" role="tab" data-tab="appendix">Приложение</button>
+    </div>
+
+    <button class="theme-toggle" data-theme-toggle aria-label="Переключить тему"></button>
+  </nav>
+</header>
+
+<main>
+
+<!-- ============ TAB: ОБЗОР ============ -->
+<section class="panel is-active" id="overview" role="tabpanel">
+  <div class="hero">
+    <div class="hero__inner">
+      <div>
+        <p class="hero__kicker">Техническое задание · июнь 2026</p>
+        <h1>Уютная студия в&nbsp;<span class="accent">тёплых пастельных</span> тонах</h1>
+        <p class="hero__sub">Дизайн-проект и ремонт квартиры-студии «под ключ» на ул. Нижегородская, 32с15 в Москве. Мягкая молочно-бежевая гамма, светлое дерево ёлочкой, пудровые акценты и тёплый свет.</p>
+        <div class="hero__tags">
+          <span class="pill">Без чёрных деталей</span>
+          <span class="pill">Без мрамора</span>
+          <span class="pill">Фактурный текстиль</span>
+          <span class="pill">Тёплый свет 2700–3000K</span>
+          <span class="pill">Матовая бронза / латунь</span>
+        </div>
+        <div class="hero__cta">
+          <button class="btn btn--primary" data-goto="estimate">Смотреть смету</button>
+          <button class="btn btn--ghost" data-goto="concept">Концепция интерьера</button>
+        </div>
+      </div>
+      <figure class="hero__figure">
+        <img src="assets/ref_bedroom.jpg" alt="Спальная зона в тёплой пудровой гамме: букле, велюр, мягкий свет" />
+      </figure>
+    </div>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi"><div class="kpi__val">34,4 м²</div><div class="kpi__label">Площадь студии</div></div>
+    <div class="kpi"><div class="kpi__val">3 000 000 ₽</div><div class="kpi__label">Общий бюджет проекта</div></div>
+    <div class="kpi"><div class="kpi__val">2 620 374 ₽</div><div class="kpi__label">Итоговая смета</div></div>
+    <div class="kpi"><div class="kpi__val">379 626 ₽</div><div class="kpi__label">Остаётся в запасе</div></div>
+  </div>
+
+  <div class="wrap" style="padding-top:0">
+    <p class="eyebrow">О проекте</p>
+    <h2 class="section-title">Что предстоит сделать</h2>
+    <p class="lead">Полный ремонт «под ключ» квартиры-студии, переданной под чистовую отделку: черновой и чистовой этапы, инженерия санузла, кухня со встроенной техникой Weissgauff, меблировка и текстиль. Весь интерьер — в тёплой пастельной палитре, категорически без чёрных элементов и мраморного рисунка.</p>
+
+    <div class="grid-3">
+      <div class="card">
+        <p class="eyebrow">Стиль</p>
+        <h3 class="section-title" style="font-size:var(--text-lg)">Тёплый пастельный минимализм</h3>
+        <p style="color:var(--color-text-muted)">Светлое дерево ёлочкой, молочно-бежевые стены и мебель, нежно-розовые (пудровые) акценты в фактурном текстиле — букле, велюр, длинный ворс.</p>
+      </div>
+      <div class="card">
+        <p class="eyebrow">Свет и климат</p>
+        <h3 class="section-title" style="font-size:var(--text-lg)">Тёплый сценарный свет</h3>
+        <p style="color:var(--color-text-muted)">Температура 2700–3000 K, скрытая контурная подсветка, бризер Xiaomi A1-150 и белая сплит-система кондиционера — без чёрных деталей.</p>
+      </div>
+      <div class="card">
+        <p class="eyebrow">Гибкость</p>
+        <h3 class="section-title" style="font-size:var(--text-lg)">Сменный текстиль</h3>
+        <p style="color:var(--color-text-muted)">Цветовую стилистику можно легко изменить сменой текстиля — чтобы в дальнейшем сдать или продать квартиру независимо от вкуса покупателя.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TAB: ЗАКАЗЧИЦА ============ -->
+<section class="panel" id="owner" role="tabpanel">
+  <div class="wrap wrap--narrow">
+    <p class="eyebrow">Для кого проект</p>
+    <h2 class="section-title">Заказчица и её питомец</h2>
+    <p class="lead">Уютная квартира для женщины 36 лет — мягкая, нежная и тактильно приятная. В ней будет жить не только хозяйка, но и её любимый пёс, поэтому интерьер планируется тёплым, спокойным и комфортным для обоих.</p>
+
+    <div class="owner">
+      <div class="owner__photo">
+        <img src="assets/owner.jpg" alt="Анна Сергеевна Иванова — заказчица проекта" />
+      </div>
+      <div>
+        <div class="owner__name">Анна Сергеевна Иванова</div>
+        <div class="owner__role">Заказчица · будущая владелица студии</div>
+        <p style="color:var(--color-text-muted)">Проект создаётся под её вкус и образ жизни: тёплая пастельная гамма, фактурный текстиль, спокойный свет и никаких чёрных деталей. Все чистовые материалы и оттенки согласуются с ней до закупки.</p>
+        <div class="owner__contacts">
+          <div>📞 Телефон: <a href="tel:+79645958111">+7 964 595 8111</a></div>
+          <div>✈️ Telegram: <a href="https://t.me/AIVRIMM" target="_blank" rel="noopener">@AIVRIMM</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:var(--space-8)">
+      <p class="eyebrow">Домашний любимец</p>
+      <h3 class="section-title" style="font-size:var(--text-lg)">Рим&nbsp;— померанский шпиц</h3>
+      <p style="color:var(--color-text-muted)">Вместе с Анной в квартире будет жить её пёс <strong style="color:var(--color-primary)">Рим</strong> — мальчик, померанский шпиц. Тёплые полы, износостойкие светлые материалы и уютные текстильные зоны делают студию комфортной и для него.</p>
+      <div class="dog-strip">
+        <img src="assets/dog1.jpg" alt="Рим — померанский шпиц" />
+        <img src="assets/dog2.jpg" alt="Рим — померанский шпиц" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TAB: ОБЪЕКТ ============ -->
+<section class="panel" id="object" role="tabpanel">
+  <div class="wrap">
+    <p class="eyebrow">Раздел 1</p>
+    <h2 class="section-title">Общие данные об объекте</h2>
+    <p class="lead">Апартаменты-студия, переданные «под чистовую отделку»: стены выровнены, окна и входная дверь установлены, выполнена черновая разводка электрики и стяжка пола; санузел — в черновом состоянии.</p>
+
+    <dl class="dl" style="border:1px solid var(--color-border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:var(--space-10)">
+      <dt>Тип объекта</dt><dd>Апартаменты (нежилое помещение), квартира-студия, 1 комната</dd>
+      <dt>Адрес</dt><dd>г. Москва, ул. Нижегородская, д. 32, стр. 15, этаж 5 (Таганский р-н)</dd>
+      <dt>Тип дома</dt><dd>Апарт-отель, панельный, 1995 г. постройки</dd>
+      <dt>Площадь</dt><dd>Общая 34,4 м² (основная зона ~30,5 м² + санузел)</dd>
+      <dt>Высота потолков</dt><dd>3,18 м</dd>
+      <dt>Габариты студии</dt><dd>По верхней стене 9,60 м (окно 7,38 м + простенок), глубина 3,50 м, ниша слева</dd>
+      <dt>Санузел</dt><dd>Совмещённый (один), правый блок</dd>
+      <dt>Текущее состояние</dt><dd>«Под чистовую отделку»: стены выровнены, окна установлены, черновая электрика, радиатор, стяжка пола, входная дверь установлена</dd>
+      <dt>Инженерия</dt><dd>Электроснабжение, ХВС/ГВС, отопление, канализация — подведены. <strong>ГАЗ ОТСУТСТВУЕТ</strong> (плита только электрическая / индукционная)</dd>
+      <dt>Окна</dt><dd>Двойное окно во двор, вид на парк</dd>
+    </dl>
+
+    <p class="eyebrow">Фото текущего состояния</p>
+    <h3 class="section-title" style="font-size:var(--text-lg)">Объект «под чистовую отделку»</h3>
+    <p style="color:var(--color-text-muted);margin-bottom:var(--space-6);max-width:72ch">Помещение передано «под чистовую отделку»: стены выровнены, окна и входная дверь установлены, выполнена черновая разводка электрики и стяжка пола; санузел — в черновом состоянии (стояки, кладка). Фото из отчёта об оценке объекта.</p>
+
+    <div class="figgrid">
+      <figure class="photo"><img src="assets/obj_studio_window.jpg" alt="Основная зона: окно, радиатор, черновые стены и стяжка" /><figcaption>Основная зона: окно, радиатор, черновые стены и стяжка</figcaption></figure>
+      <figure class="photo"><img src="assets/obj_studio_entry.jpg" alt="Вид от входа в глубь студии, окно во двор" /><figcaption>Вид от входа в глубь студии, окно во двор</figcaption></figure>
+      <figure class="photo"><img src="assets/obj_doors.jpg" alt="Входная группа и проём в санузел" /><figcaption>Входная группа и проём в санузел</figcaption></figure>
+      <figure class="photo"><img src="assets/obj_bath.jpg" alt="Санузел: черновая кладка, стояки, разводка" /><figcaption>Санузел: черновая кладка, стояки, разводка</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TAB: КОНЦЕПЦИЯ ============ -->
+<section class="panel" id="concept" role="tabpanel">
+  <div class="wrap">
+    <p class="eyebrow">Раздел 2</p>
+    <h2 class="section-title">Концепция и стиль интерьера</h2>
+    <p class="lead">Уютная квартира для женщины 36 лет в тёплой пастельной гамме — мягкой, нежной и тактильно приятной. Интерьер строится на сочетании светлого дерева ёлочкой, молочно-бежевых стен и мебели и нежно-розовых (пудровых) оттенков для фактурного текстиля (букле, велюр, длинный ворс). Акценты — тёплый рассеянный свет и фурнитура цвета матовой бронзы / латуни.</p>
+
+    <div class="notice" style="margin-bottom:var(--space-10)">
+      Важно, чтобы можно было заменить текстиль другим цветом и поменять цветовую стилистику квартиры — это нужно, чтобы в дальнейшем можно было сдать или продать квартиру независимо от пола покупателя или арендатора.
+    </div>
+
+    <div class="grid-2" style="margin-bottom:var(--space-12)">
+      <div class="card">
+        <p class="eyebrow">Обязательные требования заказчика</p>
+        <ul class="reqs">
+          <li><strong>Категорически БЕЗ чёрных элементов и деталей</strong> — фурнитура, ножки мебели, рамы, сантехника, профили только в светлых / тёплых тонах.</li>
+          <li><strong>Категорически БЕЗ мраморного рисунка</strong> — очень нравится плитка травертин; столешницы и поверхности однотонные (керамика «песчаное облако», без прожилок).</li>
+          <li>Тёплый свет во всём помещении (температура 2700–3000 K), сценарии освещения.</li>
+          <li>Фактурный текстиль: букле, велюр, длинный ворс — кресло, кровать, подушки, ковёр, покрывало.</li>
+          <li>Возможные акценты нежно-розового (пудрового) цвета.</li>
+          <li>Шторы с механизмом открывания (электрокарниз).</li>
+          <li>Обязательно бризер (приточная вентиляция). Кондиционер нужен (сплит-система, белый блок, без чёрного).</li>
+          <li>Цвет сантехники и кранов: матовая бронза / латунь (допустимо матовое серебро или белый).</li>
+        </ul>
+      </div>
+      <div class="card">
+        <p class="eyebrow">Цветовая палитра</p>
+        <div class="palette">
+          <div class="swatch"><span class="swatch__chip" style="background:#f3ece0"></span><span><span class="swatch__name">Молочный / кремовый</span><br><span class="swatch__use">Основной фон стен, текстиль, мебель</span></span></div>
+          <div class="swatch"><span class="swatch__chip" style="background:#c99a5b"></span><span><span class="swatch__name">Светлое дерево (дуб)</span><br><span class="swatch__use">Пол ёлочкой, подоконник, перегородка, рабочий стол</span></span></div>
+          <div class="swatch"><span class="swatch__chip" style="background:#e9c6cb"></span><span><span class="swatch__name">Нежно-розовый / пудровый</span><br><span class="swatch__use">Акценты: подушки, декор, текстиль</span></span></div>
+          <div class="swatch"><span class="swatch__chip" style="background:#e4d4bc"></span><span><span class="swatch__name">Тёплый бежевый / песочный</span><br><span class="swatch__use">Кухня, столешница, ковёр</span></span></div>
+          <div class="swatch"><span class="swatch__chip" style="background:#a9782f"></span><span><span class="swatch__name">Матовая бронза / латунь</span><br><span class="swatch__use">Смесители, фурнитура, полотенцесушитель</span></span></div>
+        </div>
+      </div>
+    </div>
+
+    <p class="eyebrow">Дизайн-референсы</p>
+    <h3 class="section-title" style="font-size:var(--text-lg)">Желаемый визуальный стиль</h3>
+    <p style="color:var(--color-text-muted);margin-bottom:var(--space-6);max-width:74ch">Референсы предоставлены заказчиком и задают общее настроение и палитру. Важно: все чёрные элементы и мраморный рисунок, встречающиеся на некоторых фото, — <strong>исключаются</strong>; берём только формы, свет и светлую / тёплую гамму.</p>
+
+    <div class="figgrid-3">
+      <figure class="photo"><img src="assets/ref_bedroom.jpg" alt="Спальная зона" /><figcaption>Спальная зона: тёплая пудровая гамма, букле / велюр, мягкий свет</figcaption></figure>
+      <figure class="photo"><img src="assets/ref_kitchen.jpg" alt="Кухня" /><figcaption>Кухня: светлое дерево + белые фасады, круглый стол, тёплый свет</figcaption></figure>
+      <figure class="photo"><img src="assets/ref_bath1.jpg" alt="Санузел" /><figcaption>Санузел: дерево + круглое зеркало с подсветкой, тёплый свет</figcaption></figure>
+      <figure class="photo"><img src="assets/ref_armchair.jpg" alt="Кресло букле" /><figcaption>Кресло букле молочного цвета (фактурный текстиль)</figcaption></figure>
+      <figure class="photo"><img src="assets/ref_workzone.jpg" alt="Рабочая зона" /><figcaption>Рабочая зона: деревянный подоконник-столешница у окна, пудровое кресло, ниши с подсветкой</figcaption></figure>
+      <figure class="photo"><img src="assets/ref_mirror.jpg" alt="Зеркало-шкаф Art&Max Verona" /><figcaption>Зеркало-шкаф Art&Max Verona с LED-подсветкой</figcaption></figure>
+      <figure class="photo"><img src="assets/ref_door.jpg" alt="Дверь Academy Wave" /><figcaption>Дверь Academy «Wave»: белая рифлёная, ручка латунь</figcaption></figure>
+      <figure class="photo"><img src="assets/ref_tile.jpg" alt="Плитка санузла" /><figcaption>Плитка с/у gaya EF189M082B 90×180, светло-серая (без мраморного рисунка)</figcaption></figure>
+      <figure class="photo"><img src="assets/ref_bed.jpg" alt="Кровать Коверти" /><figcaption>Кровать Коверти 140, велюр светло-бежевый (divan.ru)</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TAB: ПЛАНИРОВКА ============ -->
+<section class="panel" id="plan" role="tabpanel">
+  <div class="wrap">
+    <p class="eyebrow">Раздел 3</p>
+    <h2 class="section-title">Схема планировки и зонирование</h2>
+    <p class="lead">План квартиры-студии (вид сверху, Г-образная конфигурация). Цветовые обозначения на схеме: чёрный — границы квартиры и стен (включая отдельный санузел), синий — границы стекла (окна, душевая перегородка), красный — мебель и оборудование.</p>
+
+    <div class="schema-figure" style="margin-bottom:var(--space-12)">
+      <img src="assets/schema_plan.jpg" alt="План квартиры-студии, вид сверху — схема планировки с зонированием" />
+      <p class="caption">План квартиры-студии, вид сверху — схема зонирования</p>
+    </div>
+
+    <p class="eyebrow">Зонирование по схеме</p>
+    <h3 class="section-title" style="font-size:var(--text-lg)">8 функциональных зон</h3>
+    <div class="table-wrap">
+      <table class="tbl">
+        <thead><tr><th style="width:60px">№</th><th style="width:200px">Зона</th><th>Описание</th></tr></thead>
+        <tbody>
+          <tr><td class="num">1</td><td class="name">Спальная зона</td><td>Кровать 140×200 (мягкое изголовье, велюр) в левом верхнем углу у окна</td></tr>
+          <tr><td class="num">2</td><td class="name">Кресло и стол</td><td>Кресло букле + круглый стол с керамической столешницей (левый ряд)</td></tr>
+          <tr><td class="num">3</td><td class="name">Кухня</td><td>Компактная кухня внизу слева, у входа в санузел, верхние шкафы до потолка</td></tr>
+          <tr><td class="num">4</td><td class="name">Санузел (отдельный)</td><td>Отдельное помещение слева внизу: душ (стеклянная перегородка), раковина, стиральная машина (без сушки), туалет</td></tr>
+          <tr><td class="num">5</td><td class="name">Рабочая зона</td><td>Ниша в правом верхнем углу у окна — стол / рабочее место</td></tr>
+          <tr><td class="num">6</td><td class="name">Телевизор</td><td>На внутренней перегородке (центр помещения), напротив гостиной зоны</td></tr>
+          <tr><td class="num">7</td><td class="name">Шкаф-гардероб</td><td>Большой встроенный шкаф до потолка вдоль правой стены (нижняя часть)</td></tr>
+          <tr><td class="num">8</td><td class="name">Окна и остекление</td><td>Синим на схеме: окна по верхней стене + стеклянная перегородка душа</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TAB: МАТЕРИАЛЫ ============ -->
+<section class="panel" id="materials" role="tabpanel">
+  <div class="wrap">
+    <p class="eyebrow">Раздел 4</p>
+    <h2 class="section-title">Отделочные материалы и работы</h2>
+
+    <div class="grid-2" style="margin-bottom:var(--space-12)">
+      <div class="card">
+        <p class="eyebrow">Пол, стены, потолок</p>
+        <ul class="reqs">
+          <li><strong>Пол:</strong> инженерная доска ёлочкой, светлый дуб (матовый лак), напр. Gran Parte «Дуб Амбра» / Brinel «Дуб Drive», от 6 795 ₽/м². В санузле — плитка gaya EF189M082B 90×180 светло-серая.</li>
+          <li><strong>Подоконник:</strong> деревянный (мебельный щит дуб / ясень, в цвет пола), от 6 100 ₽/м².</li>
+          <li><strong>Плинтус:</strong> скрытый теневой алюминиевый профиль с LED-подсветкой «парящий» тёплый свет 3000 K (Fezard ALP G80 LA), ~1 190 ₽/п.м + лента.</li>
+          <li><strong>Стены:</strong> выравнивание + покраска в молочные / пудровые тона (матовая краска), декоративные акценты по зонам.</li>
+          <li><strong>Потолок:</strong> натяжной матовый белый / молочный со скрытым карнизом для штор и контурной подсветкой.</li>
+          <li><strong>Дверь межкомнатная:</strong> Academy «Wave» — белая рифлёная, ручка золото / латунь.</li>
+        </ul>
+      </div>
+      <div>
+        <figure class="photo" style="margin-bottom:var(--space-5)"><img src="assets/ref_tile.jpg" alt="Плитка санузла gaya, светло-серая без мрамора" /><figcaption>Плитка санузла gaya 90×180, светло-серая — без мраморного рисунка</figcaption></figure>
+        <figure class="photo"><img src="assets/ref_door.jpg" alt="Дверь Academy Wave" /><figcaption>Дверь Academy «Wave» — белая рифлёная, ручка латунь</figcaption></figure>
+      </div>
+    </div>
+
+    <p class="eyebrow">Сантехника и инженерия</p>
+    <h3 class="section-title" style="font-size:var(--text-lg)">Цвет — бронза / латунь, без чёрного</h3>
+    <div class="table-wrap">
+      <table class="tbl">
+        <thead><tr><th style="min-width:180px">Позиция</th><th style="min-width:180px">Модель</th><th>Характеристики</th><th class="num">Цена, ₽</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Смеситель для кухни</td><td>WasserKraft A8137 «светлая бронза»</td><td>Латунь, матовая бронза, однорычажный</td><td class="num">20 080</td></tr>
+          <tr><td class="name">Кран с кипятком + фильтр</td><td>InSinkErator Aquahot AHC-2180</td><td>Кипяток + холодная + фильтр. вода, бак 2,5 л</td><td class="num">64 990</td></tr>
+          <tr><td class="name">Фильтр обратного осмоса</td><td>Барьер ПРОФИ Осмо 100 М</td><td>5 ступеней + минерализатор, бак, кран</td><td class="num">17 530</td></tr>
+          <tr><td class="name">Смеситель в ванную</td><td>WasserKraft Exter 1603 «светлая бронза»</td><td>Латунь, матовая бронза, однорычажный</td><td class="num">18 620</td></tr>
+          <tr><td class="name">Унитаз подвесной (комплект)</td><td>Grossman Pragma 97.4455GWS</td><td>Безободковый белый + инсталляция + кнопка золото матовое</td><td class="num">29 000</td></tr>
+          <tr><td class="name">Раковина накладная</td><td>Cersanit Crea 50</td><td>Санфарфор белый, 50×40 см, на столешницу</td><td class="num">5 582</td></tr>
+          <tr><td class="name">Полотенцесушитель верт.</td><td>Domoterm Стефано П8 400×800 АБР</td><td>Лесенка, бронза матовая, водяной</td><td class="num">34 200</td></tr>
+          <tr><td class="name">Бризер + монтаж</td><td>Xiaomi Mi Fresh Air A1-150 (MJXFJ-150-A1)</td><td>Приток до 150 м³/ч, подогрев, фильтрация H13, белый (~40 000 прибор + ~5 000 монтаж)</td><td class="num">45 000</td></tr>
+          <tr><td class="name">Проточный водонагреватель</td><td>Electrolux NPX 6 Aquatronic Digital 5,5 кВт</td><td>Электрический проточный, белый (ГВС для санузла, установка подрядчиком)</td><td class="num">8 074</td></tr>
+          <tr><td class="name">Зеркало в ванную</td><td>Art&Max Verona</td><td>С тёплой LED-подсветкой и 2 ящиками</td><td class="num">22 302</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TAB: КУХНЯ ============ -->
+<section class="panel" id="kitchen" role="tabpanel">
+  <div class="wrap">
+    <p class="eyebrow">Раздел 5</p>
+    <h2 class="section-title">Кухня и встроенная техника</h2>
+
+    <div class="grid-2" style="margin-bottom:var(--space-12)">
+      <div class="card">
+        <p class="eyebrow">Требования к гарнитуру</p>
+        <ul class="reqs">
+          <li>Цвет: светлое дерево / белый / комбинированный.</li>
+          <li>Угловой нижний ряд; верхние шкафы до потолка; на угол сверху — открытая полка для уюта.</li>
+          <li>Под мойкой — выдвижной ящик / посудомоечная машина; ящик для посуды.</li>
+          <li>Вытяжка НЕ требуется. Газа нет — варочная панель индукционная.</li>
+          <li><strong>Столовая зона:</strong> круглый стол Sheffilton SHT-TU10 D90, керамика «Песчаное облако» (однотонная, холодная, без мрамора) + 2 стула букле молочные.</li>
+        </ul>
+      </div>
+      <figure class="photo"><img src="assets/ref_kitchen.jpg" alt="Кухня: светлое дерево + белые фасады" /><figcaption>Кухня: светлое дерево + белые фасады, круглый стол, тёплый свет</figcaption></figure>
+    </div>
+
+    <p class="eyebrow">Встроенная техника Weissgauff</p>
+    <h3 class="section-title" style="font-size:var(--text-lg)">Вся техника одного бренда</h3>
+    <div class="table-wrap">
+      <table class="tbl">
+        <thead><tr><th style="min-width:170px">Позиция</th><th style="min-width:170px">Модель</th><th>Характеристики</th><th class="num">Цена, ₽</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Духовка + СВЧ (2 в 1)</td><td>Weissgauff OE 442 W</td><td>Компакт 45 см, белая, 44–45 л, конвекция, гриль</td><td class="num">43 990–55 990</td></tr>
+          <tr><td class="name">Варочная панель</td><td>Weissgauff HI 32 (индукция)</td><td>2 конфорки, узкая, белая / без чёрного</td><td class="num">6 190–16 799</td></tr>
+          <tr><td class="name">Холодильник встр.</td><td>Weissgauff WRKI 178 V NoFrost</td><td>Встраиваемый, белый, NoFrost</td><td class="num">55 990–64 790</td></tr>
+          <tr><td class="name">Посудомойка встр.</td><td>Weissgauff BDW 4536 D</td><td>Встраиваемая 45 см, белая, 3 корзины</td><td class="num">20 990–27 990</td></tr>
+          <tr><td class="name">Стиральная машина</td><td>Weissgauff WM 45106 / 45127</td><td>Узкая 45 см, белая, БЕЗ сушки</td><td class="num">20 928–24 526</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="caption">Примечание: модель духовки с СВЧ «2 в 1» — Weissgauff OE 442 W (по выбору заказчика); допустим аналог Weissgauff с тем же функционалом. Все фасады в белом / без чёрного.</p>
+  </div>
+</section>
+
+<!-- ============ TAB: МЕБЕЛЬ ============ -->
+<section class="panel" id="furniture" role="tabpanel">
+  <div class="wrap">
+    <p class="eyebrow">Раздел 6</p>
+    <h2 class="section-title">Мебель и текстиль</h2>
+    <p class="lead">Все позиции — в молочных / бежевых / пудровых тонах, фактура букле и велюр, без чёрных деталей и мрамора.</p>
+
+    <div class="table-wrap" style="margin-bottom:var(--space-10)">
+      <table class="tbl">
+        <thead><tr><th style="min-width:160px">Позиция</th><th style="min-width:180px">Модель</th><th>Материал / цвет</th><th class="num">Цена, ₽</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Кресло букле</td><td>Кресло Пайл Букле Молочный</td><td>Букле молочный, ножки натуральные</td><td class="num">29 990</td></tr>
+          <tr><td class="name">Диван в прихожую</td><td>Массе-М Мини Букле Молочный</td><td>Букле молочный, 171 см</td><td class="num">37 990</td></tr>
+          <tr><td class="name">Кровать 140×200</td><td>Кровать Коверти 140 Велюр</td><td>Велюр светло-бежевый, деревянные ножки</td><td class="num">40 990</td></tr>
+          <tr><td class="name">Круглый стол</td><td>Sheffilton SHT-TU10 D90 керамика</td><td>«Песчаное облако», без мрамора, D90</td><td class="num">44 000</td></tr>
+          <tr><td class="name">Стулья, 2 шт</td><td>Торвалль Букле Молочный</td><td>Букле молочный, ножки натуральные</td><td class="num">25 980</td></tr>
+          <tr><td class="name">Покрывало</td><td>Stitch velvet молочное</td><td>Велюр / микрофибра стёганое, 220×240</td><td class="num">9 990</td></tr>
+          <tr><td class="name">Подушки декор., 4 шт</td><td>Boucle 45×45 молочные</td><td>Букле / велюр молочные</td><td class="num">7 960</td></tr>
+          <tr><td class="name">Электрокарниз + шторы</td><td>Nord Ice 300 см WiFi</td><td>Белый профиль, до 300 см, пульт / Алиса</td><td class="num">7 000</td></tr>
+          <tr><td class="name">Ковёр пушистый</td><td>Kapital gold шегги 160×230</td><td>Длинный ворс, молочный / белый</td><td class="num">14 720</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="figgrid-3">
+      <figure class="photo"><img src="assets/ref_bed.jpg" alt="Кровать Коверти" /><figcaption>Кровать Коверти 140, велюр светло-бежевый</figcaption></figure>
+      <figure class="photo"><img src="assets/ref_armchair.jpg" alt="Кресло букле молочное" /><figcaption>Кресло букле молочное</figcaption></figure>
+      <figure class="photo"><img src="assets/ref_workzone.jpg" alt="Рабочая зона" /><figcaption>Рабочий стол-подоконник у окна</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TAB: СМЕТА ============ -->
+<section class="panel" id="estimate" role="tabpanel">
+  <div class="wrap">
+    <p class="eyebrow">Раздел 7</p>
+    <h2 class="section-title">Сводная смета и бюджет</h2>
+    <p class="lead">Ориентировочная смета по разделам. Цены актуальны на июнь 2026 г. и могут меняться. Работы рассчитаны для студии ~34 м² по средним расценкам Москвы.</p>
+
+    <div class="table-wrap" style="margin-bottom:var(--space-8)">
+      <table class="tbl">
+        <thead><tr><th style="min-width:220px">Раздел</th><th>Состав</th><th class="num">Сумма, ₽</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Черновой этап — работы под ключ (подрядчик)</td><td>Инженерка санузла (с установкой проточника и гиг. душа), короба ГКЛ (душ + инсталляция), перенос / добавление розеток и разводка электрики, перенос радиатора на стойку, стяжка в санузле</td><td class="num">300 000</td></tr>
+          <tr><td class="name">Материалы чернового этапа</td><td>ГКЛ, профиль, пескобетон, штукатурка, гидроизоляция, кабель, канализация, грунт, проточник Electrolux и пр. (опт + смета Петрович)</td><td class="num">160 000</td></tr>
+          <tr><td class="name">Чистовые работы (стены, потолок, малярка)</td><td>Финишная шпатлёвка, покраска в молочные тона, натяжной потолок со скрытым карнизом</td><td class="num">230 000</td></tr>
+          <tr><td class="name">Чистовые полы и плитка</td><td>Укладка инженерной доски ёлочкой (~30 м²), плитка с/у gaya 90×180, затирка</td><td class="num">220 000</td></tr>
+          <tr><td class="name">Чистовая электрика и освещение</td><td>Установка розеток / выключателей, точечный и контурный свет, тёплый сценарный свет</td><td class="num">110 000</td></tr>
+          <tr><td class="name">Монтаж сантехники (чистовой)</td><td>Установка унитаза, душа, раковины, смесителей, полотенцесушителя</td><td class="num">70 000</td></tr>
+          <tr><td class="name">Сантехника и инженерия (оборуд.)</td><td>Смесители бронза, унитаз, бризер Xiaomi A1-150, полотенцесушитель, фильтр, кипяток, зеркало, проточник Electrolux</td><td class="num">265 374</td></tr>
+          <tr><td class="name">Кондиционер (сплит-система + монтаж)</td><td>Настенная сплит-система (белый блок, без чёрного) + монтаж, штробление трассы</td><td class="num">50 000</td></tr>
+          <tr><td class="name">Двери и проёмы</td><td>Дверь Academy Wave + монтаж, откосы</td><td class="num">55 000</td></tr>
+          <tr><td class="name">Плинтус с LED + подоконник дерев.</td><td>Теневой профиль с подсветкой (~40 п.м), подоконник дуб</td><td class="num">70 000</td></tr>
+          <tr><td class="name">Кухонный гарнитур (мебель)</td><td>Корпус, фасады дерево / белый, столешница, фурнитура (изготовление)</td><td class="num">280 000</td></tr>
+          <tr><td class="name">Встроенная техника Weissgauff</td><td>Духовка-СВЧ, индукция, холодильник, посудомойка, стиралка</td><td class="num">200 000</td></tr>
+          <tr><td class="name">Мебель и текстиль</td><td>Кровать, кресло, диван, стол, стулья, ковёр, текстиль, шторы</td><td class="num">230 000</td></tr>
+          <tr><td class="name">Декор, освещение (светильники), мелочи</td><td>Люстры / бра / торшеры тёплый свет, декор, аксессуары</td><td class="num">130 000</td></tr>
+          <tr class="total"><td>Итого по разделам</td><td></td><td class="num">2 370 374</td></tr>
+          <tr><td class="name">Резерв (непредвиденные ~9%)</td><td>Запас на корректировки и форс-мажор</td><td class="num">250 000</td></tr>
+          <tr class="total"><td>ВСЕГО</td><td>Работы + материалы + мебель и техника</td><td class="num">2 620 374</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="budget-banner" style="margin-bottom:var(--space-10)">
+      <p style="font-size:var(--text-lg)">Итоговая смета составляет <strong>2 620 374 ₽</strong>, что укладывается в бюджет <strong>3 000 000 ₽</strong>.</p>
+      <p style="font-size:var(--text-xl);font-family:var(--font-display);margin-top:var(--space-3)">Остаётся запас <strong>379 626 ₽</strong></p>
+    </div>
+
+    <div class="card">
+      <ul class="reqs">
+        <li>Бюджет можно оптимизировать: ламинат ёлочкой вместо инженерной доски (экономия ~120–150 тыс. ₽), бюджетные стулья букле, базовая комплектация техники.</li>
+        <li>Точная смета по работам формируется подрядчиком после выезда и обмеров; цены на оборудование зафиксированы по актуальным предложениям июня 2026 г.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TAB: РАБОТЫ ============ -->
+<section class="panel" id="works" role="tabpanel">
+  <div class="wrap">
+    <p class="eyebrow">Раздел 8</p>
+    <h2 class="section-title">Требования к работам и приёмке</h2>
+
+    <div class="stack">
+      <div class="card">
+        <p class="eyebrow">Освещение и электрика</p>
+        <ul class="reqs">
+          <li>Все источники света — тёплые (2700–3000 K). Сценарное освещение по зонам.</li>
+          <li>Скрытая контурная подсветка: парящий плинтус, ниша потолка, подсветка зеркала в ванной.</li>
+          <li>Достаточное число розеток на кухне, у кровати, у рабочего места; вывод под электрокарниз и ТВ (2 шт).</li>
+        </ul>
+      </div>
+      <div class="card">
+        <p class="eyebrow">Вентиляция и климат</p>
+        <ul class="reqs">
+          <li>Монтаж бризера Xiaomi Mi Fresh Air A1-150 (бурение стены, утепление, декоративная решётка).</li>
+          <li>Кондиционер устанавливается (сплит-система): внутренний блок белый, без чёрных деталей. Штробление трассы, монтаж на этапе черновых работ.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <p class="eyebrow">Санузел</p>
+        <ul class="reqs reqs--bronze">
+          <li>Гидроизоляция пола и стен мокрых зон, плитка gaya 90×180 светло-серая, тёплый свет у зеркала.</li>
+          <li>Подвесной унитаз на инсталляции, душевая зона, стиральная машина без сушки, полотенцесушитель бронза.</li>
+        </ul>
+      </div>
+      <div class="notice">
+        <p style="font-weight:600;margin-bottom:var(--space-2)">Общие требования</p>
+        <ul class="reqs" style="gap:var(--space-2)">
+          <li>Строгое соблюдение запрета на чёрные элементы и мраморный рисунок во ВСЕХ материалах и фурнитуре.</li>
+          <li>Согласование всех чистовых материалов и оттенков с заказчиком до закупки.</li>
+          <li>Поэтапная приёмка: черновые работы → инженерия → чистовая отделка → монтаж мебели и техники.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TAB: ПРИЛОЖЕНИЕ ============ -->
+<section class="panel" id="appendix" role="tabpanel">
+  <div class="wrap">
+    <p class="eyebrow">Приложение А</p>
+    <h2 class="section-title">Материалы чернового этапа (смета Петрович)</h2>
+    <p class="lead">Детальная корзина материалов, собранная подрядчиком (Смета №147165556, Петрович). <a href="https://moscow.petrovich.ru/estimate/147165556/" target="_blank" rel="noopener">Открыть смету</a>. Цены на июнь 2026 г.; часть позиций может закупаться у оптовых поставщиков.</p>
+
+    <div class="table-wrap" style="margin-bottom:var(--space-8)">
+      <table class="tbl">
+        <thead><tr><th style="min-width:320px">Наименование</th><th class="num">Кол-во</th><th class="num">Цена, ₽</th><th class="num">Сумма, ₽</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Инсталляция Cersanit Link Pro для подвесного унитаза (без кнопки)</td><td class="num">1 шт</td><td class="num">—</td><td class="num">уточн.</td></tr>
+          <tr><td class="name">Мешок для мусора 75 л полипропилен, повыш. прочности</td><td class="num">30 шт</td><td class="num">35</td><td class="num">1 050</td></tr>
+          <tr><td class="name">Соединитель прямой Stout 16×16 мм латунный</td><td class="num">2 шт</td><td class="num">213</td><td class="num">426</td></tr>
+          <tr><td class="name">Кронштейн Rifar для радиатора белый (2 шт.)</td><td class="num">1 упак</td><td class="num">730</td><td class="num">730</td></tr>
+          <tr><td class="name">Ведро строительное Павловская Заря 20 л</td><td class="num">2 шт</td><td class="num">209</td><td class="num">418</td></tr>
+          <tr><td class="name">Профиль маячковый КМ Эксперт 10 мм 3 м оцинк.</td><td class="num">4 шт</td><td class="num">197</td><td class="num">788</td></tr>
+          <tr><td class="name">Правило алюминиевое 2 м трапеция Hesler</td><td class="num">1 шт</td><td class="num">950</td><td class="num">950</td></tr>
+          <tr><td class="name">Шина монтажная для труб Русконнект RPM4 50×3×2000</td><td class="num">1 шт</td><td class="num">977</td><td class="num">977</td></tr>
+          <tr><td class="name">Шина монтажная для труб Русконнект RPM3 50×3×1200</td><td class="num">1 шт</td><td class="num">585</td><td class="num">585</td></tr>
+          <tr><td class="name">Евроконус Рехау 15 мм × 3/4 для стальных трубок</td><td class="num">2 шт</td><td class="num">550</td><td class="num">1 100</td></tr>
+          <tr><td class="name">Трубка для радиатора Stout г-образная 16×15×250 медная</td><td class="num">2 шт</td><td class="num">1 014</td><td class="num">2 028</td></tr>
+          <tr><td class="name">Гидроизоляция акриловая Vetonit Weber.tec 822 серая 8 кг</td><td class="num">2 шт</td><td class="num">3 209</td><td class="num">6 418</td></tr>
+          <tr><td class="name">Гидроизоляция акриловая Vetonit Weber.tec 822 розовая 8 кг</td><td class="num">2 шт</td><td class="num">3 471</td><td class="num">6 942</td></tr>
+          <tr><td class="name">Саморезы клопы 13×4,2 мм с буром (100 шт.)</td><td class="num">1 упак</td><td class="num">226</td><td class="num">226</td></tr>
+          <tr><td class="name">Кабель Кабэкс ВВГПнг(А)-LS 3×4</td><td class="num">10 пог.м</td><td class="num">206</td><td class="num">2 060</td></tr>
+          <tr><td class="name">Кабель Конкорд ВВГПнг(А)-LS 3×2,5</td><td class="num">30 пог.м</td><td class="num">136</td><td class="num">4 080</td></tr>
+          <tr><td class="name">Саморезы ГМ 35×3,5 мм усиленные (150 шт.)</td><td class="num">1 упак</td><td class="num">236</td><td class="num">236</td></tr>
+          <tr><td class="name">Саморезы ГМ 25×3,5 мм усиленные (200 шт.)</td><td class="num">1 упак</td><td class="num">256</td><td class="num">256</td></tr>
+          <tr><td class="name">Клапан термостатич. угловой Stout 1/2×3/4 для радиатора</td><td class="num">2 шт</td><td class="num">1 695</td><td class="num">3 390</td></tr>
+          <tr><td class="name">Кабель Конкорд ВВГПнг(А)-LS 3×1,5</td><td class="num">30 пог.м</td><td class="num">83</td><td class="num">2 490</td></tr>
+          <tr><td class="name">Отвод Ostendorf НТВ d40 мм 45° канализационный</td><td class="num">8 шт</td><td class="num">59</td><td class="num">472</td></tr>
+          <tr><td class="name">Отвод Ostendorf НТВ d40 мм 87° канализационный</td><td class="num">3 шт</td><td class="num">62</td><td class="num">186</td></tr>
+          <tr><td class="name">Труба канализ. Ostendorf HTEM d40×500</td><td class="num">3 шт</td><td class="num">109</td><td class="num">327</td></tr>
+          <tr><td class="name">Труба канализ. Ostendorf HTEM d40×1500</td><td class="num">1 шт</td><td class="num">236</td><td class="num">236</td></tr>
+          <tr><td class="name">Труба канализ. Ostendorf HTEM d40×1000</td><td class="num">2 шт</td><td class="num">163</td><td class="num">326</td></tr>
+          <tr><td class="name">Керамзит фракция 5-10 мм 0,04 м³ высший сорт</td><td class="num">3 шт</td><td class="num">309</td><td class="num">927</td></tr>
+          <tr><td class="name">Пескобетон (ЦПС) М300 Dauer 40 кг</td><td class="num">14 шт</td><td class="num">421</td><td class="num">5 894</td></tr>
+          <tr><td class="name">Гипсокартон Knauf 2000×1200×12,5 влагостойкий</td><td class="num">8 л</td><td class="num">522</td><td class="num">4 176</td></tr>
+          <tr><td class="name">Профиль потолочный Knauf 60×27 мм 4 м</td><td class="num">9 шт</td><td class="num">482</td><td class="num">4 338</td></tr>
+          <tr><td class="name">Профиль потолочный Knauf 60×27 мм 3 м</td><td class="num">1 шт</td><td class="num">305</td><td class="num">305</td></tr>
+          <tr><td class="name">Профиль потолочный направл. Knauf 28×27 мм 3 м</td><td class="num">10 шт</td><td class="num">215</td><td class="num">2 150</td></tr>
+          <tr><td class="name">Грунт Ceresit CT 17 глубокого проникновения 10 л</td><td class="num">2 шт</td><td class="num">1 537</td><td class="num">3 074</td></tr>
+          <tr><td class="name">Профиль маячковый 6 мм 3 м пластиковый</td><td class="num">12 шт</td><td class="num">53</td><td class="num">636</td></tr>
+          <tr><td class="name">Штукатурка гипсовая Unis Теплон белая 30 кг</td><td class="num">18 шт</td><td class="num">565</td><td class="num">10 170</td></tr>
+          <tr><td class="name">Проточный водонагреватель Electrolux NPX 6 Aquatronic Digital 5,5 кВт белый</td><td class="num">1 шт</td><td class="num">8 074</td><td class="num">8 074</td></tr>
+          <tr class="total"><td>ИТОГО (корзина Петрович + проточник)</td><td class="num"></td><td class="num"></td><td class="num">76 441</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="caption">Примечание: инсталляция Cersanit Link Pro временно отсутствует в наличии — цена уточняется. Общая сумма по смете без неё. В сводной смете материалы чернового этапа заложены с запасом (~160 000 ₽) под оптовые закупки.</p>
+
+    <p class="eyebrow" style="margin-top:var(--space-16)">Раздел 9</p>
+    <h2 class="section-title">Источники цен и моделей</h2>
+    <p style="color:var(--color-text-muted);margin-bottom:var(--space-6);max-width:74ch">Цены и модели подобраны по актуальным предложениям (июнь 2026 г.). Ключевые источники:</p>
+    <ul class="sources">
+      <li>Weissgauff — <a href="https://weissgauff.ru" target="_blank" rel="noopener">weissgauff.ru</a></li>
+      <li>Divan.ru — <a href="https://www.divan.ru" target="_blank" rel="noopener">divan.ru</a></li>
+      <li>Sheffilton — <a href="https://mebel-sht.ru" target="_blank" rel="noopener">mebel-sht.ru</a></li>
+      <li>Kuchenland — <a href="https://www.kuchenland.ru" target="_blank" rel="noopener">kuchenland.ru</a></li>
+      <li>WasserKraft — <a href="https://wasserkraft.ru" target="_blank" rel="noopener">wasserkraft.ru</a></li>
+      <li>InSinkErator — <a href="https://www.insinkerator-rus.ru" target="_blank" rel="noopener">insinkerator-rus.ru</a></li>
+      <li>Барьер — <a href="https://www.barrier.ru" target="_blank" rel="noopener">barrier.ru</a></li>
+      <li>Xiaomi бризер — <a href="https://aeros.su/brizery/xiaomi-mijia-new-fan-a1" target="_blank" rel="noopener">aeros.su</a></li>
+      <li>Domoterm / ВсеИнструменты — <a href="https://www.vseinstrumenti.ru" target="_blank" rel="noopener">vseinstrumenti.ru</a></li>
+      <li>Пол вам в дом — <a href="https://polvamvdom.ru" target="_blank" rel="noopener">polvamvdom.ru</a></li>
+      <li>Seal-parket (плинтус LED) — <a href="https://seal-parket.ru" target="_blank" rel="noopener">seal-parket.ru</a></li>
+      <li>Petrovich — <a href="https://petrovich.ru" target="_blank" rel="noopener">petrovich.ru</a></li>
+      <li>Mr-Kover — <a href="https://mr-kover.ru" target="_blank" rel="noopener">mr-kover.ru</a></li>
+    </ul>
+    <p class="caption" style="margin-top:var(--space-8)">Документ подготовлен как техническое задание для подрядчика. Цены ориентировочные; финальная смета согласуется после выезда специалиста.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div>
+      <strong style="color:var(--color-text)">ТЗ · Ремонт квартиры-студии «под ключ»</strong><br>
+      г. Москва, ул. Нижегородская, 32с15 · 34,4 м² · июнь 2026
+    </div>
+    <div>
+      Заказчица: Анна Сергеевна Иванова · <a href="tel:+79645958111">+7 964 595 8111</a> · <a href="https://t.me/AIVRIMM" target="_blank" rel="noopener">@AIVRIMM</a>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
