@@ -15,6 +15,12 @@
   );
 })();
 
+/* ---------- Скачать PDF (печать всех вкладок) ---------- */
+(function () {
+  const btn = document.querySelector('[data-print]');
+  if (btn) btn.addEventListener('click', () => window.print());
+})();
+
 /* ---------- Theme toggle ---------- */
 (function () {
   const t = document.querySelector('[data-theme-toggle]'),
